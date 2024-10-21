@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+header {
+    background-color: $background-color;
+    padding: 20px 0;
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    nav ul li {
+        margin: 0 15px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: $second-color;
+        font-size: 3rem;
+    }
+    nav ul li a:hover{
+        color: $first-color;
+    }
+}
+
+
+
+
+
+
+.skill{
+    background-color:$second-color;
+.about{
+    color: $background-color;
+    display: flex;
+    height: 46.3rem;
+    padding: 30px;
+    font: 16px "Open Sans";
+    
+  
+    h2{
+        width: 25rem;
+        font: 48px "Raleway";
+       
+    
+    
+    }
+    p{
+        width: 51rem;
+        font: 18px "Open Sans";
+        margin-top: 20px;
+    }
+    .from{
+        height: 2.8rem;
+        width: 16rem;
+        font: 18px "Open Sans";
+        margin-top: 20px;
+    }
+    
+    a{
+        font: 18px "Open Sans";
+        margin-top: 20px;
+    }
+    button{
+        background-color: $second-color;
+        color: $background-color;
+        width: 18.8rem;
+        font: 16px "Raleway";
+        margin-top: 30px;
+        padding: 10px 30px;
+        border-radius: 5rem;
+        border: 3px solid $background-color;
+        cursor: pointer;
+    }
+}
+.image{
+    width: 57rem;
+    height: 46.3rem;
+    font: 16px "Open Sans";
+    padding: 30px 23px;
+    img{
+        width: 33.5rem;
+        height: 37rem;
+        margin: 0 189px 0 0;
+        border-radius: 7rem;
+        position: relative;
+        background-size: cover;
+    }
+    .circle1{
+        background-color: $third-color;
+        width: 15.9rem;
+        height: 15.9rem;
+        margin: -159px 110px 0 255px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    
+    .circle2{
+        background-color: $first-color;
+        width: 15.9rem;
+        height: 15.9rem;
+        margin: -159px 0 0 365px;
+        border-radius: 100%;
+    }
+}
+
+}
+
+
+
+
+
+.why{
+    color: $background-color;
+    width: 147.7rem;
+    height: 52.2rem;
+    font: 18px "Open Sans";
+    background-color: $third-color;
+    h2{
+        height: 5.2rem;
+        font: 48px "Raleway";
+        padding: 4rem;
+        
+    }
+    p{
+        width: 37.3rem;
+        height: 2.8rem;
+        font: 18px "Open Sans";
+        margin: 20px 767px 0 0;
+        margin-top: 5rem;
+    }
+    
+    .cards{
+        width: 27rem;
+        height: 24.2rem;
+        display: flex;
+        gap: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        .card{
+            width: 26.6rem;
+            height: 23.8rem;
+            font: 16px "Open Sans";
+            padding: 20px;
+            text-align: center;
+            border: 2px solid $background-color;
+            border-radius: 4rem;
+            h3{
+                width: 22.6rem;
+                height: 8.6rem;
+                font: 72px "Montserrat";
+                margin: 38px 0px 0px;
+            }
+            h5{
+                width: 22.6rem;
+                height: 4.8rem;
+                font: 20px "Raleway";
+            }
+        }
+    }   
+}
+
+
+.us{
+    width: 147.7rem;
+    height: 87.2rem;
+    color: $second-color;
+    font: 16px "Open Sans";
+    h2{
+        padding: 5rem;
+        font-size: 5rem;
+    }
+    .flexcard{
+        width: 114rem;
+        height: 66.9rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        .flex{
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5rem;
+            width: 55.1rem;
+            height: 31.5rem;
+            pad: 30px;
+            text-align: center;
+            padding: 2rem;
+
+            .img1{
+                background-color: $third-color;
+            }
+            .img2{
+                background-color: rgb(225, 225, 19);
+                
+            }
+            .img3{
+                background-color: orange;
+            }
+            .img4{
+                background-color: aqua;
+            }
+           
+            .images{
+                margin-top: 3rem;
+            }
+            span{
+                width: 15rem;
+                height: 10rem;
+                margin: 0 396px 0 0;
+                padding: 35px;
+                border-radius: 100%;
+            }
+            img{
+                width: 3.7rem;
+                height: 3.7rem;
+            }
+            h5{
+                
+                height: 2.4rem;
+                font: 20px "Raleway";
+                margin: 30px 298px 0 0;
+                margin-top: 6rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                width: 49.1rem;
+                height: 8.6rem;
+                font: 18px "Open Sans";
+                margin: 20px 0 0;
+                margin-top: 3rem;
+            }
+        }
+    }
+    
+}
+
+
+
+
+.item{
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 1.5rem;
+        padding: 3rem;
+        border-radius: 3rem;
+        color: $background-color;
+        img{
+            width: 100%;
+            height: 54rem;
+            border-radius: 2rem;
+            object-fit: cover;
+        }
+    }
+
+    .grid-item4{
+        border-radius: 3rem;
+        padding: 2rem;
+        p{
+            margin-top: 5rem;
+           margin-bottom: 2rem;
+           font-size: 1.5rem;
+            
+        }
+        h{
+            width: 15rem;
+         font-size: 4rem;
+        }
+        background-color: $third-color;
+    }
+
+    .grid-item5{
+        border-radius: 3rem;
+        padding: 2rem;
+        p{
+            margin-top: 5rem;
+           margin-bottom: 2rem;
+           font-size: 1.5rem;
+            
+        }
+        h{
+            width: 15rem;
+         font-size: 4rem;
+        }
+       background-color: $second-color;
+    }
+
+    .grid-item6{
+        border-radius: 3rem;
+        padding: 2rem;
+        p{
+            margin-top: 5rem;
+           margin-bottom: 2rem;
+           font-size: 1.5rem;
+            
+        }
+        h{
+            width: 15rem;
+         font-size: 4rem;
+        }
+      background-color: $first-color;
+    }
+    .grid-item1{
+        width: 100%;
+        grid-row: 1/3;
+        grid-column: 2/3;
+    }
+    .grid-item2{
+        width: 100%;
+        grid-row: 2/4;
+        grid-column: 1/2;
+    }
+    .grid-item3{
+        width: 100%;
+        grid-row: 2/4;
+        grid-column: 3/4;
+    }
+}
+
+
+
+.footer{
+    .text{
+        padding: 3rem;
+        text-align: center;
+       font: 25px "Open Sans";
+        color: $background-color;
+        width: 147.7rem;
+        height: 12rem;
+        background-color: $second-color;
+    }
+
+    .website{
+        color: $background-color;
+        width: 147.7rem;
+        height: 10rem;
+        font: 16px "Open Sans";
+        background-color: $second-color;
+        padding: 16px;
+        ul{
+            padding: 4rem;
+            gap: 2rem;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+       
+    }
+}
+
+

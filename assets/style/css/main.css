@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 112.8rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  padding: 20px 0;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+}
+header nav ul li a:hover {
+  color: #f0974f;
+}
+
+.skill {
+  background-color: black;
+}
+.skill .about {
+  color: white;
+  display: flex;
+  height: 46.3rem;
+  padding: 30px;
+  font: 16px "Open Sans";
+}
+.skill .about h2 {
+  width: 25rem;
+  font: 48px "Raleway";
+}
+.skill .about p {
+  width: 51rem;
+  font: 18px "Open Sans";
+  margin-top: 20px;
+}
+.skill .about .from {
+  height: 2.8rem;
+  width: 16rem;
+  font: 18px "Open Sans";
+  margin-top: 20px;
+}
+.skill .about a {
+  font: 18px "Open Sans";
+  margin-top: 20px;
+}
+.skill .about button {
+  background-color: black;
+  color: white;
+  width: 18.8rem;
+  font: 16px "Raleway";
+  margin-top: 30px;
+  padding: 10px 30px;
+  border-radius: 5rem;
+  border: 3px solid white;
+  cursor: pointer;
+}
+.skill .image {
+  width: 57rem;
+  height: 46.3rem;
+  font: 16px "Open Sans";
+  padding: 30px 23px;
+}
+.skill .image img {
+  width: 33.5rem;
+  height: 37rem;
+  margin: 0 189px 0 0;
+  border-radius: 7rem;
+  position: relative;
+  background-size: cover;
+}
+.skill .image .circle1 {
+  background-color: #8A5CD9;
+  width: 15.9rem;
+  height: 15.9rem;
+  margin: -159px 110px 0 255px;
+  border-radius: 100%;
+  position: absolute;
+}
+.skill .image .circle2 {
+  background-color: #f0974f;
+  width: 15.9rem;
+  height: 15.9rem;
+  margin: -159px 0 0 365px;
+  border-radius: 100%;
+}
+
+.why {
+  color: white;
+  width: 147.7rem;
+  height: 52.2rem;
+  font: 18px "Open Sans";
+  background-color: #8A5CD9;
+}
+.why h2 {
+  height: 5.2rem;
+  font: 48px "Raleway";
+  padding: 4rem;
+}
+.why p {
+  width: 37.3rem;
+  height: 2.8rem;
+  font: 18px "Open Sans";
+  margin: 20px 767px 0 0;
+  margin-top: 5rem;
+}
+.why .cards {
+  width: 27rem;
+  height: 24.2rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.why .cards .card {
+  width: 26.6rem;
+  height: 23.8rem;
+  font: 16px "Open Sans";
+  padding: 20px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 4rem;
+}
+.why .cards .card h3 {
+  width: 22.6rem;
+  height: 8.6rem;
+  font: 72px "Montserrat";
+  margin: 38px 0px 0px;
+}
+.why .cards .card h5 {
+  width: 22.6rem;
+  height: 4.8rem;
+  font: 20px "Raleway";
+}
+
+.us {
+  width: 147.7rem;
+  height: 87.2rem;
+  color: black;
+  font: 16px "Open Sans";
+}
+.us h2 {
+  padding: 5rem;
+  font-size: 5rem;
+}
+.us .flexcard {
+  width: 114rem;
+  height: 66.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.us .flexcard .flex {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5rem;
+  width: 55.1rem;
+  height: 31.5rem;
+  pad: 30px;
+  text-align: center;
+  padding: 2rem;
+}
+.us .flexcard .flex .img1 {
+  background-color: #8A5CD9;
+}
+.us .flexcard .flex .img2 {
+  background-color: rgb(225, 225, 19);
+}
+.us .flexcard .flex .img3 {
+  background-color: orange;
+}
+.us .flexcard .flex .img4 {
+  background-color: aqua;
+}
+.us .flexcard .flex .images {
+  margin-top: 3rem;
+}
+.us .flexcard .flex span {
+  width: 15rem;
+  height: 10rem;
+  margin: 0 396px 0 0;
+  padding: 35px;
+  border-radius: 100%;
+}
+.us .flexcard .flex img {
+  width: 3.7rem;
+  height: 3.7rem;
+}
+.us .flexcard .flex h5 {
+  height: 2.4rem;
+  font: 20px "Raleway";
+  margin: 30px 298px 0 0;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.us .flexcard .flex p {
+  width: 49.1rem;
+  height: 8.6rem;
+  font: 18px "Open Sans";
+  margin: 20px 0 0;
+  margin-top: 3rem;
+}
+
+.item .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 3rem;
+  border-radius: 3rem;
+  color: white;
+}
+.item .grid-container img {
+  width: 100%;
+  height: 54rem;
+  border-radius: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.item .grid-item4 {
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: #8A5CD9;
+}
+.item .grid-item4 p {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.item .grid-item4 h {
+  width: 15rem;
+  font-size: 4rem;
+}
+.item .grid-item5 {
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: black;
+}
+.item .grid-item5 p {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.item .grid-item5 h {
+  width: 15rem;
+  font-size: 4rem;
+}
+.item .grid-item6 {
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: #f0974f;
+}
+.item .grid-item6 p {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.item .grid-item6 h {
+  width: 15rem;
+  font-size: 4rem;
+}
+.item .grid-item1 {
+  width: 100%;
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+.item .grid-item2 {
+  width: 100%;
+  grid-row: 2/4;
+  grid-column: 1/2;
+}
+.item .grid-item3 {
+  width: 100%;
+  grid-row: 2/4;
+  grid-column: 3/4;
+}
+
+.footer .text {
+  padding: 3rem;
+  text-align: center;
+  font: 25px "Open Sans";
+  color: white;
+  width: 147.7rem;
+  height: 12rem;
+  background-color: black;
+}
+.footer .website {
+  color: white;
+  width: 147.7rem;
+  height: 10rem;
+  font: 16px "Open Sans";
+  background-color: black;
+  padding: 16px;
+}
+.footer .website ul {
+  padding: 4rem;
+  gap: 2rem;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
